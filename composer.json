@@ -1,0 +1,29 @@
+{
+	"name": "fuelphp/legacy",
+	"description": "Legacy package for FuelPHP",
+	"keywords": ["legacy", "proxy"],
+	"homepage": "https://github.com/fuelphp/legacy",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "FuelPHP Development Team",
+			"email": "team@fuelphp.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"codeception/codeception": "~2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Fuel\\Legacy\\": "src/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.0-dev"
+		}
+	}
+}
