@@ -56,6 +56,6 @@ class Request extends Base
 	 */
 	public static function getInstance()
 	{
-		$stack = static::getContainer()->get('requestInstance');
+		return static::getContainer()->get('requestInstance');
 	}
 }
